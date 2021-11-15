@@ -21,11 +21,7 @@ jobs:
         java-version: 1.8
     - name: Run PMD
       run: mvn -B clean package -DskipTests pmd:pmd pmd:cpd
-    - name: Upload PMD report
-      uses: actions/upload-artifact@v1
-      with:
-        name: report
-        path: '**/'
+  
         
   spotbugs:
     runs-on: ubuntu-latest
