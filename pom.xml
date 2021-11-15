@@ -13,4 +13,16 @@
         <module>core</module>
         <module>backend</module>
     </modules>
+         
+         
+         <dependencies>
+                  <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
+<dependency>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs</artifactId>
+    <version>4.5.0</version>
+    <type>pom</type>
+</dependency>
+
+         </dependencies>
 </project>
